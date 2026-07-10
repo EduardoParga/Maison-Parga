@@ -1,6 +1,7 @@
 import { CalendarHeart } from 'lucide-react';
+import portraitImage from '../assets/brand/thais-portrait-garden.webp';
 import { professionalInfo, trustPoints, whatsappUrl } from '../data/content.js';
-import { HeroFlipCard } from './HeroFlipCard.jsx';
+import { TiltedCard } from './TiltedCard.jsx';
 
 export function Hero() {
   return (
@@ -15,7 +16,6 @@ export function Hero() {
           <div className="hero__meta" aria-label="Informações profissionais">
             <span>{professionalInfo.crp}</span>
             <span>{professionalInfo.approach}</span>
-            <span>{professionalInfo.tagline}</span>
           </div>
           <div className="hero__actions">
             <a className="button button--primary" href={whatsappUrl}>
@@ -33,7 +33,17 @@ export function Hero() {
           </ul>
         </div>
         <div className="hero__media" data-reveal>
-          <HeroFlipCard />
+          <TiltedCard
+            imageSrc={portraitImage}
+            altText="Thaís Lage sorrindo em um ambiente natural com plantas"
+            overlayContent={
+              <>
+                <small>{professionalInfo.crp}</small>
+                <strong>Thaís Lage</strong>
+                <span>{professionalInfo.approach}</span>
+              </>
+            }
+          />
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
-import { Instagram, Mail, MapPin, Phone } from 'lucide-react';
-import logoCard from '../assets/brand/thais-logo-card.webp';
+import { Instagram, MapPin, Phone } from 'lucide-react';
+import logoOfficial from '../assets/brand/logo-official-dark-transparent.png';
 import { contactInfo, professionalInfo, whatsappUrl } from '../data/content.js';
 import { BrandMark } from './BrandMark.jsx';
 import { WhatsAppIcon } from './WhatsAppIcon.jsx';
@@ -22,24 +22,18 @@ export function ContactFooter() {
             </a>
           </div>
           <div className="contact__brand-card" data-reveal>
-            <img src={logoCard} alt="Thaís Lage Psicóloga Clínica" />
+            <img src={logoOfficial} alt="Thaís Lage Psicóloga Clínica" />
           </div>
         </div>
       </div>
       <footer className="footer">
         <div className="container footer__grid">
-          <BrandMark tone="light" />
-          <p>
-            {professionalInfo.approach}. {professionalInfo.tagline}.
-          </p>
+          <BrandMark />
+          <p>{professionalInfo.approach}.</p>
           <address>
             <a href={contactInfo.phoneHref}>
               <Phone size={18} />
               {contactInfo.phoneLabel}
-            </a>
-            <a href="mailto:contato@thaislagepsicologia.com.br">
-              <Mail size={18} />
-              contato@thaislagepsicologia.com.br
             </a>
             <span>
               <MapPin size={18} />

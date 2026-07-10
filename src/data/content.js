@@ -1,12 +1,15 @@
 import {
   Brain,
   CalendarHeart,
+  Compass,
   Heart,
   Leaf,
   MessageCircle,
+  Search,
   ShieldCheck,
   Sprout,
   SunMedium,
+  Target,
 } from 'lucide-react';
 
 export const navigation = [
@@ -29,7 +32,6 @@ export const whatsappUrl =
 export const professionalInfo = {
   crp: 'CRP/MG - 04/85600',
   approach: 'Terapia Cognitivo-Comportamental',
-  tagline: '🌿 Escuta, acolhimento e cuidado',
 };
 
 export const approachSteps = [
@@ -41,17 +43,38 @@ export const approachSteps = [
     icon: Heart,
   },
   {
-    title: 'Reconhecer dificuldades',
-    summary: 'Exploramos emoções, crenças e padrões que pesam na sua rotina.',
+    title: 'Compreender emoções',
+    summary: 'Damos nome ao que você sente e entendemos como as emoções aparecem na sua rotina.',
     detail:
-      'Nomear dores, bloqueios e repetições ajuda a construir escolhas mais conscientes e menos automáticas.',
+      'Compreender as emoções reduz a sensação de confusão e ajuda a reconhecer necessidades importantes. Juntas, observamos os sinais do corpo, os pensamentos e as situações que despertam cada sentimento.',
     icon: SunMedium,
   },
   {
-    title: 'Renovar e crescer',
-    summary: 'Fortalecemos possibilidades para uma vida com mais sentido e equilíbrio.',
+    title: 'Identificar padrões',
+    summary: 'Observamos crenças, hábitos e repetições que influenciam escolhas e relacionamentos.',
     detail:
-      'O processo terapêutico abre espaço para autonomia, autoestima e relações mais saudáveis.',
+      'Alguns padrões se repetem de forma automática e podem manter sofrimentos por muito tempo. Identificá-los permite entender de onde vêm, como funcionam e quais caminhos podem ser construídos de maneira diferente.',
+    icon: Search,
+  },
+  {
+    title: 'Definir caminhos',
+    summary: 'Transformamos necessidades em objetivos possíveis, claros e conectados com a sua realidade.',
+    detail:
+      'A terapia também é um espaço para organizar prioridades e decidir quais mudanças fazem sentido agora. Os objetivos são construídos em conjunto, respeitando sua história, seus limites e o momento que você está vivendo.',
+    icon: Compass,
+  },
+  {
+    title: 'Construir estratégias',
+    summary: 'Desenvolvemos recursos práticos para enfrentar desafios com mais consciência e equilíbrio.',
+    detail:
+      'A partir do que foi compreendido, construímos estratégias aplicáveis ao cotidiano. Elas podem envolver novas formas de responder aos pensamentos, regular emoções, estabelecer limites e lidar com situações difíceis.',
+    icon: Target,
+  },
+  {
+    title: 'Fortalecer autonomia',
+    summary: 'Consolidamos aprendizados para que você confie mais em si e nas próprias escolhas.',
+    detail:
+      'O processo terapêutico busca ampliar sua autonomia, não criar dependência. Com o tempo, você passa a reconhecer seus recursos, tomar decisões mais alinhadas aos seus valores e enfrentar desafios com maior segurança.',
     icon: Sprout,
   },
 ];
