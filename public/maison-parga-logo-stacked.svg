@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="720" viewBox="0 0 300 720" fill="none" shape-rendering="geometricPrecision">
+  <defs>
+    <linearGradient id="gold" x1="28" y1="120" x2="275" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ead5af"/>
+      <stop offset=".48" stop-color="#b88b59"/>
+      <stop offset="1" stop-color="#dfc293"/>
+    </linearGradient>
+    <linearGradient id="inset" x1="34" y1="100" x2="270" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#49372d"/>
+      <stop offset=".52" stop-color="#382a23"/>
+      <stop offset="1" stop-color="#2f251f"/>
+    </linearGradient>
+    <linearGradient id="plinth" x1="30" y1="620" x2="270" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9e744c"/>
+      <stop offset=".5" stop-color="#d5b680"/>
+      <stop offset="1" stop-color="#8e6848"/>
+    </linearGradient>
+    <pattern id="lattice" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="m22 2 6 14 14 6-14 6-6 14-6-14-14-6 14-6 6-14Zm0 10v20M12 22h20" stroke="#d0b183" stroke-width=".65" opacity=".25"/>
+    </pattern>
+    <clipPath id="archClip">
+      <path d="M27 665V230c0-75 49-117 101-141 10-5 17-16 22-34 5 18 12 29 22 34 52 24 101 66 101 141v435H27Z"/>
+    </clipPath>
+  </defs>
+
+  <path d="M22 672V230c0-79 51-124 105-150 12-6 20-19 23-39 3 20 11 33 23 39 54 26 105 71 105 150v442H22Z" fill="url(#inset)" stroke="url(#gold)" stroke-width="3.4" stroke-linejoin="round"/>
+  <path d="M35 657V231c0-69 46-107 96-131 9-4 16-13 19-27 3 14 10 23 19 27 50 24 96 62 96 131v426H35Z" stroke="#e1c596" stroke-width="1.25" opacity=".82" stroke-linejoin="round"/>
+  <path d="M27 230c0-75 49-117 101-141 10-5 17-16 22-34 5 18 12 29 22 34 52 24 101 66 101 141v435H27V230Z" fill="url(#lattice)" clip-path="url(#archClip)" opacity=".42"/>
+  <path d="M46 248c0-61 40-94 85-116m38 0c45 22 85 55 85 116" stroke="#9e774f" stroke-width=".8" opacity=".7" stroke-linecap="round"/>
+
+  <g stroke="url(#gold)" stroke-linejoin="round">
+    <path d="m150 113 13 24 27 13-27 13-13 24-13-24-27-13 27-13 13-24Z" fill="#49372d" stroke-width="1.55"/>
+    <path d="m150 126 7 15 16 9-16 8-7 15-7-15-16-8 16-9 7-15Z" stroke-width="1.05"/>
+    <circle cx="150" cy="150" r="5" fill="url(#gold)" stroke-width=".8"/>
+    <path d="M150 101v-9m0 116v-9m-52-49h-9m131 0h-9" stroke-width=".9" opacity=".8"/>
+  </g>
+
+  <g transform="translate(32.4 250.2) scale(2.4)">
+    <path d="M10 96V8h78v88" stroke="#d8bb8b" stroke-width="1.15"/>
+    <path d="M22 78V27l27 36 27-36v51" stroke="#f2e4cf" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M43 78V27h17c18 0 18 27 0 27H43" stroke="#d8bb8b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M91 526c18-17 36-17 59 0 23-17 41-17 59 0" stroke-width="1.4"/>
+    <path d="M106 526c-7-14-18-19-31-17 4 13 14 20 31 17Zm88 0c7-14 18-19 31-17-4 13-14 20-31 17Z" stroke-width="1.05"/>
+    <path d="M122 541c10-15 19-22 28-23 9 1 18 8 28 23m-28-23v35" stroke-width="1.1"/>
+    <path d="M111 568h78m-64 9h50" stroke-width=".8" opacity=".78"/>
+    <path d="M150 559c-7-7-8-14 0-22 8 8 7 15 0 22Z" fill="#c49a68" stroke-width=".8"/>
+  </g>
+
+  <path d="M27 617h246v49H27z" fill="url(#plinth)" opacity=".96"/>
+  <path d="M27 617h246M37 625h226M37 658h226" stroke="#f1dfbd" stroke-width=".8" opacity=".83"/>
+  <path d="M49 642h67m68 0h67" stroke="#51392a" stroke-width=".9" opacity=".68"/>
+  <path d="m150 633 9 9-9 9-9-9 9-9Z" fill="#51392a" stroke="#f1dfbd" stroke-width=".8"/>
+  <path d="M55 683h190" stroke="#b68b5e" stroke-width="1.2" opacity=".9"/>
+</svg>

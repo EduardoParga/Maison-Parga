@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 112" fill="none">
+  <g transform="translate(8 6)">
+    <path d="M10 96V8h78v88" stroke="#A36543" stroke-width="2"/>
+    <path d="M22 78V27l27 36 27-36v51" stroke="#49352D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M43 78V27h17c18 0 18 27 0 27H43" stroke="#A36543" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M125 58h32" stroke="#A36543" stroke-width="1.5"/>
+  <text x="125" y="48" fill="#49352D" font-family="Cormorant Garamond, Georgia, serif" font-size="34" font-weight="500" letter-spacing="1.1">MAISON PARGA</text>
+  <text x="126" y="81" fill="#9B7658" font-family="Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="5.2">PARFUM</text>
+</svg>
