@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" fill="none">
+  <g stroke="#aa8754" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3.5" y="3.5" width="393" height="593" rx="1" stroke-width="1.2" opacity=".92"/>
+    <rect x="8.5" y="8.5" width="383" height="583" rx=".5" stroke-width=".65" opacity=".68"/>
+    <rect x="13.5" y="13.5" width="373" height="573" rx=".5" stroke-width=".45" opacity=".42"/>
+    <g id="corner" stroke-width=".9" opacity=".88">
+      <path d="M18 58V36c0-10 8-18 18-18h22M25 48V37c0-7 5-12 12-12h11"/>
+      <path d="M23 55c2-11 10-19 21-21M31 55c1-6 5-10 11-11"/>
+      <path d="m36 36 5-5 5 5-5 5-5-5Z"/>
+      <circle cx="41" cy="36" r="1.05" fill="#aa8754" stroke="none"/>
+    </g>
+    <use href="#corner" transform="translate(400 0) scale(-1 1)"/>
+    <use href="#corner" transform="translate(0 600) scale(1 -1)"/>
+    <use href="#corner" transform="translate(400 600) scale(-1 -1)"/>
+    <g stroke-width=".8" opacity=".82">
+      <path d="M171 9h17m24 0h17M171 591h17m24 0h17"/>
+      <path d="m200 5 6 6-6 6-6-6 6-6Zm0 578 6 6-6 6-6-6 6-6Z"/>
+      <path d="M200 8v6m0 574v6"/>
+      <circle cx="200" cy="11" r="1.25" fill="#aa8754" stroke="none"/>
+      <circle cx="200" cy="589" r="1.25" fill="#aa8754" stroke="none"/>
+    </g>
+  </g>
+</svg>
